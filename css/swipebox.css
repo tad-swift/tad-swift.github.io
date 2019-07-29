@@ -296,7 +296,7 @@ html.swipebox-html.swipebox-touch {
 #swipebox-next {
     width: 20px;
     height: 20px;
-    background: url(../img/liza_swipebox.png) no-repeat 0 0;
+    background: url(https://tadreik.com/img/liza_swipebox.png) no-repeat 0 0;
     background-size: 60px 20px;
     position: fixed;
     transition: opacity 400ms;

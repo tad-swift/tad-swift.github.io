@@ -1928,7 +1928,7 @@ body .tagcloud a {
 	width:20px;
 	height:20px;
 	display:block;
-	background:url(../img/liza_sprite.png) no-repeat;
+	background:url(https://tadreik.com/img/liza_sprite.png) no-repeat;
 	background-size:120px 20px;	
 }
 .liza_button_prev {
@@ -3512,7 +3512,7 @@ nav.navigation.pagination .screen-reader-text {
 .liza_album_down_arrow {
     width: 20px;
     height: 20px;
-    background: url(../img/liza_sprite.png) no-repeat 0 0;
+    background: url(https://tadreik.com/img/liza_sprite.png) no-repeat 0 0;
     background-size: 120px 20px;
     display: block;
     position: absolute;
