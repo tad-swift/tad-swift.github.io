@@ -5,22 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">    
 	<link rel="icon" href="https://tadreik.com/img/icon.png" sizes="192x192" />
 	<link rel="apple-touch-icon-precomposed" href="https://tadreik.com/img/icon.png" />
-	<title>TC Snaps</title>    <meta name="keywords" content="photographer">
-    <meta name="description" content="Tadreik Campbell's photography website.">
-    <meta name="theme-color" content="#1a1a1a">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<title>Liza HTML - Home</title>    <meta name="keywords" content="HTML5 Template">
+    <meta name="description" content="Responsive HTML5 Template">
 
     <!--Mobile Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!--Web Fonts-->
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 	
     <!-- CSS-->
 	<link rel="stylesheet" id="fontawesome-css" href="https://tadreik.com/css/font-awesome.min.css" type="text/css" media="all" />
 	<link rel="stylesheet" id="kube-css" href="https://tadreik.com/css/kube.css" type="text/css" media="all" />
 	<link rel="stylesheet" id="swipebox-css" href="https://tadreik.com/css/swipebox.css" type="text/css" media="all" />
 	<link rel="stylesheet" id="owl-css" href="https://tadreik.com/css/owl.carousel.css" type="text/css" media="all" />
+	
 	<link rel="stylesheet" id="liza-modules-css" href="https://tadreik.com/css/modules.css" type="text/css" media="all" />
 	<link rel="stylesheet" id="liza-theme-css" href="https://tadreik.com/css/theme.css" type="text/css" media="all" />
 	<link rel="stylesheet" id="liza-responsive-css" href="https://tadreik.com/css/responsive.css" type="text/css" media="all" />
@@ -28,8 +27,29 @@
 	
 </head>
 <body>
-  	<!-- Simple Header -->
-	<header class="liza_header logo_center menu_simple">
+	<!-- Aside Menu -->
+	<div class="liza_aside_menu_wrapper">
+		<a class="liza_menu_toggler" href="javascript:void(0)">
+			<span class="liza_menu_ico">
+				<span class="liza_menu_ico_line1"></span>
+				<span class="liza_menu_ico_line2"></span>
+				<span class="liza_menu_ico_line3"></span>
+			</span>
+		</a>
+
+		<nav class="liza_main_nav">			
+			<ul class="liza_menu">
+				<li class="current-menu-ancestor"><a href="javascript:void(0)">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+
+		
+	</div><!-- .liza_aside_menu_wrapper -->
+	
+	<!-- Aside Header -->
+	<header class="liza_header logo_center menu_aside">
 		<div class="liza_header_bg liza_blur_on_aside"></div>
 		<div class="liza_header_wrapper">
 			<div class="liza_header_left_part">
@@ -40,41 +60,31 @@
 							<span class="liza_menu_ico_line2"></span>
 							<span class="liza_menu_ico_line3"></span>
 						</span>Menu
-					</a><!-- .liza_menu_toggler -->
-					<nav class="liza_main_nav liza_blur_on_aside">					
-						<ul class="liza_menu">
-							<li class="current-menu-ancestor">
-								<a href="javascript:void(0)">Home</a>
-							</li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contacts.html">Contact</a></li>
-						</ul>
-					</nav><!-- .liza_main_nav -->
-				</div><!-- .liza_menu_block -->
+					</a>
+				</div>
 			</div><!-- .liza_header_left_part -->
 
 			<div class="liza_header_middle_part">
 				<div class="liza_logo_wrapper liza_blur_on_aside">
-					<a href="index.html" class="liza_image_logo liza_retina"><img src="https://tadreik.com/img/logo.png" alt="" width="145" height="59" /></a>
+					<a href="index.html" class="liza_image_logo liza_retina"><img src="img/logo.png" alt="" width="145" height="59" /></a>
 				</div>
 			</div><!-- .liza_header_middle_part -->
 
-			<div class="liza_header_right_part">		
+			<div class="liza_header_right_part">
 				<div class="liza_social_icons liza_blur_on_aside">
 					
 				</div>
-			</div><!-- .liza_header_right_part -->
+			</div><!-- .liza_header_right_part -->		
 			<div class="clear"></div>
 		</div><!-- .liza_header_wrapper -->
-	</header><!-- .menu_simple -->
-	
+	</header><!-- .liza_header -->	
+  		
 	<!-- Mobile Header -->
 	<header class="liza_mobile_header">
 		<div class="liza_mobile_header_wrapper">
 			<div class="liza_mobile_header_logo">
 				<div class="liza_logo_wrapper liza_blur_on_aside">
-					<a href="index.html" class="liza_image_logo liza_retina"><img src="https://tadreik.com/img/logo.png" alt="" width="145" height="59" /></a>
+					<a href="index.html" class="liza_image_logo liza_retina"><img src="img/logo.png" alt="" width="145" height="59" /></a>
 				</div>
 			</div><!-- .liza_mobile_header_logo -->
 			<div class="liza_mobile_button_wrapper">
@@ -109,20 +119,20 @@
 								data-autoplay = "on"
 								data-interval = "5000">
 								<div class="liza_simple_slide liza_js_bg_color liza_js_bg_image simple_slide_loader liza_simple_slide1" 
-									data-title="Light in the Dark"
-									data-src="https://tadreik.com/img/portrait.jpg"
+									data-title=""
+									data-src="https://tadreik.com/img/zstand.png"
 									data-bgcolor = "#0b0c11"
 									data-count="1"></div>
 
 								<div class="liza_simple_slide liza_js_bg_color liza_js_bg_image simple_slide_loader  liza_simple_slide2" 
-									data-title="Smoking time"
-									data-src="https://tadreik.com/img/jordyn.jpg"
+									data-title=""
+									data-src="https://tadreik.com/img/shay.jpg"
 									data-bgcolor = "#0b0c11"
 									data-count="2"></div>
 
 								<div class="liza_simple_slide liza_js_bg_color liza_js_bg_image simple_slide_loader  liza_simple_slide3" 
-									data-title="Mirroring"
-									data-src="https://tadreik.com/img/zstand.png"
+									data-title=""
+									data-src="https://tadreik.com/img/alex.jpg"
 									data-bgcolor = "#0b0c11"
 									data-count="3"></div>		
 							</div>
@@ -142,173 +152,281 @@
 						</div><!-- .liza_simple_slider_wrapper -->
 					</div>
 				</div><!-- .row -->
+				
+				<div class="row liza_js_padding" data-padBottom="99">
+					<div class="col col-6 liza_js_padding" data-padRight="30" data-padRightTablet="0" data-padBottomTablet="30">
+						<h3>It All Started with Picture</h3>
+						<p>Hey, thanks for stopping by. My name’s Liza Henderson and I’m a Art Director &amp; Photographer based in the San Francisco where I make cool things for agencies and brands around globe. If you like my work then don’t hesitate to reach out.</p>
+						<p class="liza_js_padding" data-padBottom="30">I am already known for pushing the best of imagery, both stills and films. I evolve, photography evolves, clients evolve, so the way we get the job done should evolve as well. I want to focus on what’s actually needed and slash the stuff that isn’t. I aim at being a proponent for good photography and a voice for change within the business. I’ve got some bold ideas and can’t wait to share.</p>
+						
+						<div class="row liza_resp_restore_3cols liza_js_padding" data-padBottom="53">
+							<div class="col col-4">
+								<div class="liza_icons_line_item">
+									<i class="fa fa-puzzle-piece"></i><h6>Creative</h6>
+								</div>
+							</div><!-- .col4 -->
+							<div class="col col-4">
+								<div class="liza_icons_line_item">
+									<i class="fa fa-eye"></i><h6>Insight</h6>
+								</div>
+							</div><!-- .col4 -->
+							<div class="col col-4">
+								<div class="liza_icons_line_item">
+									<i class="fa fa-star"></i><h6>Quality</h6>
+								</div>
+							</div><!-- .col4 -->
+						</div><!-- .liza_resp_restore_3cols -->
+						
+						<p>But firstly it’s about jaw dropping, awe inspiring, surprising and well composed stories told through the lens of the beholder. Make sure you look through my portfolios and have a chat with me about your next project.</p>
+					</div><!-- .col col-6 -->
+					
+					<div class="col col-6 liza_js_padding" data-padLeft="30" data-padLeftTablet="0">
+						<img src="https://tadreik.com/img/blizzard.jpg" alt=""/>
+					</div><!-- .col col-6 -->
+				</div><!-- .row -->
+				
+				<div class="row liza_js_padding liza_resp_restore_4cols" data-padBottom="110">
+					<div class="col col-3">
+						<div class="liza_counter" data-temp="Test IT">
+							<div class="liza_counter_wrapper">
+								<div class="liza_counter_content">
+									<div class="liza_counter_title_wrapper"><h6 class="liza_counter_title liza_js_color" data-color="#ffffff"><span class="liza_js_bg_color" data-bgcolor="#ffffff"></span>YEARS</h6></div>
+									<div class="liza_stat_count_wrapper">
+										<div class="liza_stat_count liza_js_bg_color" data-color="#ffffff" data-count="10">0</div>
+									</div>
+									<div class="liza_stat_temp"></div>
+								</div>
+							</div>
+						</div><!-- .liza_counter -->
+					</div><!-- .col col-3 -->
+						
+					<div class="col col-3">
+						<div class="liza_counter" data-temp="Test IT">
+							<div class="liza_counter_wrapper">
+								<div class="liza_counter_content">
+									<div class="liza_counter_title_wrapper"><h6 class="liza_counter_title liza_js_color" data-color="#ffffff"><span class="liza_js_bg_color" data-bgcolor="#ffffff"></span>CLIENTS</h6></div>
+									<div class="liza_stat_count_wrapper">
+										<div class="liza_stat_count liza_js_bg_color" data-color="#ffffff" data-count="38">0</div>
+									</div>
+									<div class="liza_stat_temp"></div>
+								</div>
+							</div>
+						</div><!-- .liza_counter -->
+					</div><!-- .col col-3 -->
+					
+					<div class="col col-3">
+						<div class="liza_counter" data-temp="Test IT">
+							<div class="liza_counter_wrapper">
+								<div class="liza_counter_content">
+									<div class="liza_counter_title_wrapper"><h6 class="liza_counter_title liza_js_color" data-color="#ffffff"><span class="liza_js_bg_color" data-bgcolor="#ffffff"></span>PROJECTS</h6></div>
+									<div class="liza_stat_count_wrapper">
+										<div class="liza_stat_count liza_js_bg_color" data-color="#ffffff" data-count="250">0</div>
+									</div>
+									<div class="liza_stat_temp"></div>
+								</div>
+							</div>
+						</div><!-- .liza_counter -->
+					</div><!-- .col col-3 -->
+					
+					<div class="col col-3">
+						<div class="liza_counter" data-temp="Test IT">
+							<div class="liza_counter_wrapper">
+								<div class="liza_counter_content">
+									<div class="liza_counter_title_wrapper"><h6 class="liza_counter_title liza_js_color" data-color="#ffffff"><span class="liza_js_bg_color" data-bgcolor="#ffffff"></span>AWARDS</h6></div>
+									<div class="liza_stat_count_wrapper">
+										<div class="liza_stat_count liza_js_bg_color" data-color="#ffffff" data-count="15">0</div>
+									</div>
+									<div class="liza_stat_temp"></div>
+								</div>
+							</div>
+						</div><!-- .liza_counter -->
+					</div><!-- .col col-3 -->
+				</div><!-- .row -->
 
-				<div class="row liza_js_padding" data-padBottom="55">
-					<div class="col col-12 align_center">
-						<h3 class="liza_js_margin" data-marBottom="23">Welcome to TC Snaps</h3>
-						<p>Hey, thanks for stopping by. My name’s Liza Henderson and I’m a Art Director & Photographer based in the San Francisco where I make cool things for agencies and brands around globe. If you like my work then don’t hesitate to reach out.</p>
+				<div class="row liza_js_padding liza_home01_promo liza_resp_restore_3cols" data-padBottom="182" data-padBottomTablet="100">
+					<div class="col col-4 liza_js_padding" data-padTop="80" data-padTopTablet="30">
+						<img src="https://tadreik.com/img/blizzard.jpg" alt="" />
+					</div><!-- .col col-4 -->
+					<div class="col col-4">
+						<img src="https://tadreik.com/blizzard.jpg" alt="" />
+					</div><!-- .col col-4 -->
+					<div class="col col-4 liza_js_padding" data-padTop="80" data-padTopTablet="30">
+						<img src="https://tadreik.com/blizzard.jpg" alt="" />
+					</div><!-- .col col-4 -->
+				</div><!-- .row -->
+
+				<div class="row liza_js_padding" data-padBottom="25">
+					<div class="col col-12"><h3 class="align_center">Reasons to Choose My Services</h3></div>
+				</div><!-- .row -->
+				
+				<div class="row liza_home01_iconbox liza_gutters liza_js_padding" data-padBottom="28">
+					<div class="col col-4">
+						<i class="liza_medium_icon fa fa-heart-o"></i>
+						<h5>1<span class="liza_small_divider"></span>PASSION</h5>
+						<p>Phasellus euismod aliquet condimentum. Curabitur vitae posuere nisl. Nunc in felis sagittis, venenatis sem sit amet, elementum urna. Morbi scelerisque.</p>
+					</div><!-- .col col-4 -->
+					<div class="col col-4">
+						<i class="liza_medium_icon fa fa-diamond"></i>
+						<h5>2<span class="liza_small_divider"></span>PHILOSOPHY</h5>
+						<p>Duis commodo felis non iaculis rhoncus. Proin conv velit et gravida ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
+					</div><!-- .col col-4 -->
+					<div class="col col-4">
+						<i class="liza_medium_icon fa fa-lightbulb-o"></i>
+						<h5>3<span class="liza_small_divider"></span>INSIGHT</h5>
+						<p>Etiam diam magna, condimentum nec libero ut, tristique elementum lorem. Suspendisse maximus mi eu est vehicula scelerisque. Morbi mauris metu.</p>
+					</div><!-- .col col-4 -->
+				</div><!-- .row -->
+
+				<div class="row liza_home01_iconbox liza_gutters liza_js_padding" data-padBottom="49">
+					<div class="col col-4">
+						<i class="liza_medium_icon fa fa-comment-o"></i>
+						<h5>4<span class="liza_small_divider"></span>IDEAS</h5>
+						<p>Donec sit amet maximus risus, vel finibus nuncer ir. Vestibulum cursus gravida diam, quiser maximus tellus varius eget. Praesent vel ipsum turpis comm.</p>
+					</div><!-- .col col-4 -->
+					<div class="col col-4">
+						<i class="liza_medium_icon fa fa-star-o"></i>
+						<h5>5<span class="liza_small_divider"></span>CREATIVITY</h5>
+						<p>Nam sodales eros quis ipsum tempor, eu feugiat justo finibus. Phasellus facilisis quam malesuada erat varius, eget auctor ante porta. Proin vestibulu.</p>
+					</div><!-- .col col-4 -->
+					<div class="col col-4">
+						<i class="liza_medium_icon fa fa-thumbs-o-up"></i>
+						<h5>6<span class="liza_small_divider"></span>QUALITY</h5>
+						<p>Aliquam gravida quam sit amet ante condimentum, sodales luctus diam convallis. In nec rutrum lacus. Nunc quis finibus eros, ac convallis nibh. Sed velmi.</p>
+					</div><!-- .col4 -->
+				</div><!-- .row -->
+
+				<div class="row liza_js_padding" data-padBottom="84">
+					<div class="col col-12 align_center"><a href="contacts.html" class="liza_button ">Get in touch</a></div>
+				</div><!-- .row -->
+				
+				<div class="row liza_js_bg_image liza_bg_cover liza_set_fullwidth liza_boxed_inner liza_js_margin" data-src="https://tadreik.com/img/blizzard.jpg" data-inner="boxed" data-marBottom="120">
+					<div class="col col-12 align_center liza_js_padding liza_home01_promo2" data-padTop="187" data-padBottom="158">
+						<h6 class="align_center">Thin. Light. Epic.</h6>
+						<h1 class="align_center">Start Something New</h1>
+						<p class="liza_js_padding liza_js_color" data-color="#ffffff" data-padBottom="21">I appreciate the raw reality of everyday life, the fleeting beauty of those in-between moments, and I do my very best to take every picture with that in mind. I want my viewers to relate to my photographs through recognition of and familiarity with the situations.</p>
+						<a href="projects-listing.html" class="liza_button">Show My Works</a>
 					</div>
 				</div><!-- .row -->
-				
-				<div class="row liza_gutters liza_js_padding liza_resp_restore_3cols" data-padBottom="80">
-					<div class="col col-4">
-						<div class="liza_home02_block align_center">
-							<div class="liza_home02_block_img">
-								<img src="https://tadreik.com/img/blizzard.jpg" alt=""/>
-							</div>
-							<h5 class="liza_title_w_divider">Passion</h5>
-							<p>Phasellus euismod aliquet condimentum. Curabitur vitae posuere nisl. Nunc in felis sagittis, venenatis sem sit amet, elementum urna. Morbi scelerisque.</p>
-						</div><!-- .liza_home02_block -->
-					</div><!-- .col-4 -->
-					
-					<div class="col col-4">
-						<div class="liza_home02_block align_center">
-							<div class="liza_home02_block_img">
-								<img src="https://tadreik.com/img/blizzard.jpg" alt=""/>
-							</div>
-							<h5 class="liza_title_w_divider">Philosophy</h5>
-							<p>Duis commodo felis non iaculis rhoncus. Proin conv velit et gravida ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
-						</div><!-- .liza_home02_block -->
-					</div><!-- .col-4 -->
-					
-					<div class="col col-4">
-						<div class="liza_home02_block align_center">
-							<div class="liza_home02_block_img">
-								<img src="https://tadreik.com/img/blizzard.jpg" alt=""/>
-							</div>
-							<h5 class="liza_title_w_divider">Insight</h5>
-							<p>Etiam diam magna, condimentum nec libero ut, tristique elementum lorem. Suspendisse maximus mi eu est vehicula scelerisque. Morbi mauris metu.</p>
-						</div><!-- .liza_home02_block -->
-					</div><!-- .col-4 -->
-				</div><!-- .row -->
-				
-				<div class="row liza_js_padding liza_home03_image_line" data-padBottom="120">
-					<div class="col col-12 align_center">
-						<h4 class="liza_js_margin" data-marBottom="71">Discover Now the Beauty</h4>
-						<div class="liza_promo_block_wrapper">
-							<div class="liza_promo_block">
-								<div class="promo_block_image_wrapper">
-									<a href="album_single-grid.html" class="promo_block_link">
-										<img src="https://tadreik.com/img/blizzard.jpg" class="liza_promo_image" alt="" />
-										<div class="promo_block_overlay liza_js_bg_color" data-bgcolor="rgba(0,0,0,0.6)"></div>
-										<div class="promo_block_content">
-											<h5 class="promo_block_title liza_js_color" data-color="#ffffff">Still Life</h5>
-										</div>
-									</a>
-								</div><!-- .promo_block_image_wrapper -->
-							</div><!-- .liza_promo_block -->
-						</div><!-- .liza_promo_block_wrapper -->
 
-						<div class="liza_promo_block_wrapper">
-							<div class="liza_promo_block">
-								<div class="promo_block_image_wrapper">
-									<a href="album_single-blizzard.html" class="promo_block_link">
-										<img src="https://tadreik.com/img/blizzard.jpg" class="liza_promo_image" alt="" />
-										<div class="promo_block_overlay liza_js_bg_color" data-bgcolor="rgba(0,0,0,0.6)"></div>
-										<div class="promo_block_content">
-											<h5 class="promo_block_title liza_js_color" data-color="#ffffff">Keep Dancing</h5>
-										</div>
-									</a>
-								</div><!-- .promo_block_image_wrapper -->
-							</div><!-- .liza_promo_block -->
-						</div><!-- .liza_promo_block_wrapper -->
-
-						<div class="liza_promo_block_wrapper">
-							<div class="liza_promo_block">
-								<div class="promo_block_image_wrapper">
-									<a href="album_single-masonry.html" class="promo_block_link">
-										<img src="https://tadreik.com/img/blizzard.jpg" class="liza_promo_image" alt="" />
-										<div class="promo_block_overlay liza_js_bg_color" data-bgcolor="rgba(0,0,0,0.6)"></div>
-										<div class="promo_block_content">
-											<h5 class="promo_block_title liza_js_color" data-color="#ffffff">Fantastic Woman</h5>
-										</div>
-									</a>
-								</div><!-- .promo_block_image_wrapper -->
-							</div><!-- .liza_promo_block -->
-						</div><!-- .liza_promo_block_wrapper -->
-
-						<div class="liza_promo_block_wrapper">
-							<div class="liza_promo_block">
-								<div class="promo_block_image_wrapper">
-									<a href="album_single-ribbon.html" class="promo_block_link">
-										<img src="https://tadreik.com/img/blizzard.jpg" class="liza_promo_image" alt="" />
-										<div class="promo_block_overlay liza_js_bg_color" data-bgcolor="rgba(0,0,0,0.6)"></div>
-										<div class="promo_block_content">
-											<h5 class="promo_block_title liza_js_color" data-color="#ffffff">Reading Time</h5>
-										</div>
-									</a>
-								</div><!-- .promo_block_image_wrapper -->
-							</div><!-- .liza_promo_block -->
-						</div><!-- .liza_promo_block_wrapper -->
-
-						<div class="liza_promo_block_wrapper">
-							<div class="liza_promo_block">
-								<div class="promo_block_image_wrapper">
-									<a href="album_single-ribbons.html" class="promo_block_link">
-										<img src="https://tadreik.com/img/blizzard.jpg" class="liza_promo_image" alt="" />
-										<div class="promo_block_overlay liza_js_bg_color" data-bgcolor="rgba(0,0,0,0.6)"></div>
-										<div class="promo_block_content">
-											<h5 class="promo_block_title liza_js_color" data-color="#ffffff">Hippie Style</h5>
-										</div>
-									</a>
-								</div><!-- .promo_block_image_wrapper -->
-							</div><!-- .liza_promo_block -->
-						</div><!-- .liza_promo_block_wrapper -->
+				<div class="row">
+					<div class="col col-12 liza_js_margin" data-marBottom="102">
+						<div class="liza_testimonials_slider liza_owlCarousel owl-carousel owl-theme" data-autoplay = "off"	data-speed = "5000">
+							<div class="liza_testimonials_item">
+								<div class="liza_testimonials_item_inner">
+									<div class="testimonial_content">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean felis eros, porta non ultrices sit amet.”</div>
+									<div class="testimonial_author_info">
+										<img src="https://tadreik.com/img/blizzard.jpg" alt="" class="testimonials_img"/>
+										<h6 class="testimonial_author">Nancy Hoover</h6>
+										<div class="testimonial_additional">Lawyer, New York</div>
+									</div>
+								</div>
+							</div><!-- .liza_testimonials_item -->
+							<div class="liza_testimonials_item">
+								<div class="liza_testimonials_item_inner">
+									<div class="testimonial_content">“Phasellus condimentum, ante vel imperdiet varius, leo nulla pulvinar leo, non aliquam eros felis ut mauris nec.”</div>
+									<div class="testimonial_author_info">
+										<img src="https://tadreik.com/img/blizzard.jpg" alt="" class="testimonials_img"/>
+										<h6 class="testimonial_author">Albert Pierce</h6>
+										<div class="testimonial_additional">Artist, Boston</div>
+									</div>
+								</div>
+							</div><!-- .liza_testimonials_item -->
+							<div class="liza_testimonials_item">
+								<div class="liza_testimonials_item_inner">
+									<div class="testimonial_content">“Accumsan diam, nec malesuada ipsum. Donec ac pulvinar nunc. In et rhoncus justo, ac aliquet arcu et pellentesque.”</div>
+									<div class="testimonial_author_info">
+										<img src="https://tadreik.com/img/blizzard.jpg" alt="" class="testimonials_img"/>
+										<h6 class="testimonial_author">Helen Evans</h6>
+										<div class="testimonial_additional">Designer, San Francisco</div>
+									</div>
+								</div>
+							</div><!-- .liza_testimonials_item -->
+							<div class="liza_testimonials_item">
+								<div class="liza_testimonials_item_inner">
+									<div class="testimonial_content">“Orci, non dignissim nisi. Quisque mattis nulla in commodo blandit. Fusce scelerisque libero at eros volutpat.”</div>
+									<div class="testimonial_author_info">
+										<img src="https://tadreik.com/img/blizzard.jpg" alt="" class="testimonials_img"/>
+										<h6 class="testimonial_author">Richard Murphy</h6>
+										<div class="testimonial_additional">Lawyer, New York</div>
+									</div>
+								</div>
+							</div><!-- .liza_testimonials_item -->
+							<div class="liza_testimonials_item">
+								<div class="liza_testimonials_item_inner">
+									<div class="testimonial_content">“Eget fringilla lacus suscipit. Nam lobortis efficitur porta. Nunc et congue nisl. Praesent enim justo, congue eu.”</div>
+									<div class="testimonial_author_info">
+										<img src="https://tadreik.com/img/blizzard.jpg" alt="" class="testimonials_img"/>
+										<h6 class="testimonial_author">Sophia Wilson</h6>
+										<div class="testimonial_additional">Artist, Boston</div>
+									</div>
+								</div>
+							</div><!-- .liza_testimonials_item -->
+							<div class="liza_testimonials_item">
+								<div class="liza_testimonials_item_inner">
+									<div class="testimonial_content">“Nibh vel, facilisis vehicula urna. Sed consequat ex finibus velit condimentum tempus. Proin pellentesque libero.”</div>
+									<div class="testimonial_author_info">
+										<img src="https://tadreik.com/img/blizzard.jpg" alt="" class="testimonials_img"/>
+										<h6 class="testimonial_author">Ella Fisher</h6>
+										<div class="testimonial_additional">Designer, San Francisco</div>
+									</div>
+								</div>
+							</div><!-- .liza_testimonials_item -->
+						</div><!-- .liza_testimonials_slider -->
 					</div><!-- .col-12 -->
 				</div><!-- .row -->
 
-				<div class="row liza_set_fullwidth liza_boxed_inner liza_js_padding liza_js_bg_color" data-padTop="90" data-padBottom="97" data-bgcolor="#13151c">
-					<div class="col col-12 align_center">
-						<div class="liza_promo_text_wrapper liza_promo_has_button">
-							<div class="liza_promo_text_inner">
-								<div class="liza_promo_text">Already Love My Works? So what are you waiting for?</div>
-								<h1 class="liza_promo_title">Let’s Make Something Great!</h1>
-							</div><!-- .liza_promo_text_inner -->
-							<div class="liza_promo_text_button_wrapper">
-								<a href="contact.html" class="liza_button liza_promo_text_button">Hire me</a>
-							</div><!-- .liza_promo_text_button_wrapper -->
-						</div><!-- .liza_promo_text_wrapper -->
+				<div class="row liza_js_padding" data-padBottom="27">
+					<div class="col col-12 align_center"><h3>My Latest Projects</h3></div>
+				</div><!-- .row -->
+
+				<div class="row liza_set_fullwidth">
+					<div class="col col-12">						
+						<div class="liza_projects_grid liza_projects_grid2" data-uniqid="2952">
+							<div class="liza_projects_grid_inner" data-pad="60">
+								<div class="liza_project_grid_post_wrapper liza_project_loading liza_project_element people portraits" data-category="people portraits">
+									<div class="liza_project_grid_post_inner">
+										<div class="liza_project_grid_image"><a href="project_single-fullwidth.html"><img src="https://tadreik.com/img/blizzard.jpg" alt=""></a></div>
+										<div class="liza_grid_post_title">
+											<a class="notextdecor" href="project_single-fullwidth.html"><h5 class="innertitle entry-title">Attractive babe</h5></a>
+										</div>
+										<div class="liza_grid_project_meta liza_meta">
+											<div>Sep 24, 2017</div>
+											<div>in  People, Portraits</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="liza_project_grid_post_wrapper liza_project_loading liza_project_element lifestyle people" data-category="lifestyle people">
+									<div class="liza_project_grid_post_inner">
+										<div class="liza_project_grid_image"><a href="project_single-left.html"><img src="https://tadreik.com/img/blizzard.jpg" alt=""></a></div>
+										<div class="liza_grid_post_title">
+											<a class="notextdecor" href="project_single-left.html"><h5 class="innertitle entry-title">Keep dancing</h5></a>
+										</div>
+										<div class="liza_grid_project_meta liza_meta">
+											<div>Sep 24, 2017</div>
+											<div>in  Lifestyle, People</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="liza_project_grid_post_wrapper liza_project_loading liza_project_element fashion people" data-category="fashion people">
+									<div class="liza_project_grid_post_inner">
+										<div class="liza_project_grid_image"><a href="project_single-right.html"><img src="https://tadreik.com/img/blizzard.jpg" alt=""></a></div>
+										<div class="liza_grid_post_title">
+											<a class="notextdecor" href="project_single-right.html"><h5 class="innertitle entry-title">City rhythm</h5></a>
+										</div>
+										<div class="liza_grid_project_meta liza_meta">
+											<div>Sep 24, 2017</div>
+											<div>in  Fashion, People</div>
+										</div>
+									</div>
+								</div>
+
+							</div><!-- .liza_projects_grid_inner -->
+						</div><!-- .liza_projects_grid -->
 					</div><!-- .col-12 -->
 				</div><!-- .row -->
-
-				<div class="row liza_set_fullwidth liza_js_padding liza_resp_restore_3cols" data-padBottom="120">
-					<div class="col col-4">
-						<div class="liza_promo_block_wrapper">
-							<div class="liza_promo_block">
-								<div class="promo_block_image_wrapper">
-									<a href="albums-slider.html" class="promo_block_link">
-										<img src="https://tadreik.com/img/blizzard.jpg" class="liza_promo_image" alt="" />
-									</a>
-								</div><!-- .promo_block_image_wrapper -->
-							</div><!-- .liza_promo_block -->
-						</div><!-- .liza_promo_block_wrapper -->
-					</div><!-- .col-4 -->
-					
-					<div class="col col-4">
-						<div class="liza_promo_block_wrapper">
-							<div class="liza_promo_block">
-								<div class="promo_block_image_wrapper">
-									<a href="contacts.html" class="promo_block_link">
-										<img src="https://tadreik.com/img/blizzard.jpg" class="liza_promo_image" alt="" />
-									</a>
-								</div><!-- .promo_block_image_wrapper -->
-							</div><!-- .liza_promo_block -->
-						</div><!-- .liza_promo_block_wrapper -->
-					</div><!-- .col-4 -->
-
-					<div class="col col-4">
-						<div class="liza_promo_block_wrapper">
-							<div class="liza_promo_block">
-								<div class="promo_block_image_wrapper">
-									<a href="blog-fullwidth.html" class="promo_block_link">
-										<img src="https://tadreik.com/img/blizzard.jpg" class="liza_promo_image" alt="" />
-									</a>
-								</div><!-- .promo_block_image_wrapper -->
-							</div><!-- .liza_promo_block -->
-						</div><!-- .liza_promo_block_wrapper -->
-					</div><!-- .col-4 -->
-				</div><!-- .row -->
-
+				
 				<!-- End of Content -->
 			</div><!-- .liza_tiny -->
 		</div><!-- .liza_content -->
@@ -321,7 +439,7 @@
 		</div>
 		<div class="liza_footer_middle_part">
 			<div class="liza_logo_cont">
-				<div class="liza_logo_wrapper liza_blur_on_aside"><a href="index.html" class="liza_image_logo liza_retina"><img src="img/logo.png" alt="" width="145" height="59" /></a></div>
+				<div class="liza_logo_wrapper liza_blur_on_aside"><a href="index.html" class="liza_image_logo liza_retina"><img src="https://tadreik.com/img/logo.png" alt="" width="145" height="59" /></a></div>
 			</div>
 		</div>
 		<div class="liza_footer_right_part">
@@ -340,9 +458,13 @@
     <script src="https://tadreik.com/js/jquery.swipebox.js"></script>
     <script src="https://tadreik.com/js/jquery.waypoints.min.js"></script>
     <script src="https://tadreik.com/js/owl.carousel.min.js"></script>
+	<script src="https://tadreik.com/js/jquery.isotope.min.js"></script>
 	<script src="https://tadreik.com/js/jquery.event.swipe.js"></script>
-	<script src="https://tadreik.com/js/pm_ribbon_gallery.js"></script>
-	<script src="https://tadreik.com/js/pm_testimonials.js"></script>
+    
+	<script src="https://tadreik.com/js/simple_slider.js"></script>
+	<script src="https://tadreik.com/js/pm_counter.js"></script>
+    <script src="https://tadreik.com/js/posts_sorting.js"></script>
+    
     <script src="https://tadreik.com/js/theme.js"></script>
 </body>
 </html>
