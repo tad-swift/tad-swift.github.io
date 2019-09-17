@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Foodie Thing.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+				<key>dateExpires</key>
+				<string>7/13/20</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>DynamicBlurView.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>EFQRCode.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleUtilities.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>HxColor.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>Protobuf.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>ViewAnimator.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>grpc.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>grpcpp.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>leveldb.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>nanopb.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>openssl_grpc.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>swift_qrcodejs.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>61DC90B092F48012CB808916A8D2A6AB0890E13E</string>
+						<key>dateExpires</key>
+						<string>7/13/20</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>867H59QZX6.com.FoodieThing.jonah.FT-Sticker</string>
+						<key>com.apple.developer.team-identifier</key>
+						<string>867H59QZX6</string>
+						<key>get-task-allow</key>
+						<true/>
+						<key>keychain-access-groups</key>
+						<array>
+							<string>867H59QZX6.com.FoodieThing.jonah.FT-Sticker</string>
+						</array>
+					</dict>
+					<key>name</key>
+					<string>FT Stickers.appex</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>ce37f4ee-97f0-4b06-81e2-0f8bcb874ef5</string>
+						<key>name</key>
+						<string>iOS Team Provisioning Profile: *</string>
+					</dict>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>867H59QZX6</string>
+						<key>name</key>
+						<string>Jonah Sachs</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>867H59QZX6.com.FoodieThing.jonah</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>867H59QZX6</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>867H59QZX6.com.FoodieThing.jonah</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Foodie Thing.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c0ee86ff-a2f3-4f34-99a6-d059c2d461c0</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.FoodieThing.jonah</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>867H59QZX6</string>
+				<key>name</key>
+				<string>Jonah Sachs</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
