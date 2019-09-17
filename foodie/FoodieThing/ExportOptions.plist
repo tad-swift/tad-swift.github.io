@@ -9,7 +9,7 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://tadreik.com/foodie</string>
+		<string>https://tadreik.com/foodie/FoodieThing/FoodieThing.ipa</string>
 		<key>displayImageURL</key>
 		<string>https://tadreik.com/img/blizzard.jpg</string>
 		<key>fullSizeImageURL</key>
