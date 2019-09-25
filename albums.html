@@ -39,29 +39,8 @@
 	
 </head>
 <body>
-  	<!-- Aside Menu -->
-    <div class="liza_aside_menu_wrapper">
-        <a class="liza_menu_toggler" href="javascript:void(0)">
-            <span class="liza_menu_ico">
-                <span class="liza_menu_ico_line1"></span>
-                <span class="liza_menu_ico_line2"></span>
-                <span class="liza_menu_ico_line3"></span>
-            </span>
-        </a>
-
-        <nav class="liza_main_nav">
-            <ul class="liza_menu">
-                <li class="current-menu-ancestor"><a href="javascript:void(0)">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-
-
-    </div><!-- .liza_aside_menu_wrapper -->
-
-    <!-- Aside Header -->
-    <header class="liza_header logo_center menu_aside">
+  	<!-- Simple Header -->
+    <header class="liza_header logo_center menu_simple">
         <div class="liza_header_bg liza_blur_on_aside"></div>
         <div class="liza_header_wrapper">
             <div class="liza_header_left_part">
@@ -72,13 +51,20 @@
                             <span class="liza_menu_ico_line2"></span>
                             <span class="liza_menu_ico_line3"></span>
                         </span>Menu
-                    </a>
-                </div>
+                    </a><!-- .liza_menu_toggler -->
+                    <nav class="liza_main_nav liza_blur_on_aside">
+                        <ul class="liza_menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="current-menu-ancestor"><a href="javascript:void(0)">Gallery</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </nav><!-- .liza_main_nav -->
+                </div><!-- .liza_menu_block -->
             </div><!-- .liza_header_left_part -->
 
             <div class="liza_header_middle_part">
                 <div class="liza_logo_wrapper liza_blur_on_aside">
-                    <a href="index.html" class="liza_image_logo liza_retina"><img src="img/logo.png" alt="" width="145" height="40" /></a>
+                    <a href="index.html" class="liza_image_logo liza_retina"><img src="https://tadreik.com/img/logo.png" alt="" width="145" height="59" /></a>
                 </div>
             </div><!-- .liza_header_middle_part -->
 
@@ -89,14 +75,14 @@
             </div><!-- .liza_header_right_part -->
             <div class="clear"></div>
         </div><!-- .liza_header_wrapper -->
-    </header><!-- .liza_header -->
+    </header><!-- .menu_simple -->
 
     <!-- Mobile Header -->
     <header class="liza_mobile_header">
         <div class="liza_mobile_header_wrapper">
             <div class="liza_mobile_header_logo">
                 <div class="liza_logo_wrapper liza_blur_on_aside">
-                    <a href="index.html" class="liza_image_logo liza_retina"><img src="img/logo.png" alt="" width="145" height="59" /></a>
+                    <a href="index.html" class="liza_image_logo liza_retina"><img src="https://tadreik.com/img/logo.png" alt="" width="145" height="59" /></a>
                 </div>
             </div><!-- .liza_mobile_header_logo -->
             <div class="liza_mobile_button_wrapper">
@@ -111,11 +97,9 @@
         </div><!-- .liza_mobile_header_wrapper -->
         <div class="liza_mobile_menu_wrapper">
 
-
             <nav class="liza_mobile_menu liza_container"></nav>
         </div><!-- .liza_mobile_menu_wrapper -->
     </header><!-- .liza_mobile_header -->
-
   	
 	<div class="liza_title_breadcrumb_wrapper liza_blur_on_aside liza_js_bg_image " data-src="img/breadcrumb04.jpg">
 		<div class="liza_title_breadcrumb_inner liza_container">
