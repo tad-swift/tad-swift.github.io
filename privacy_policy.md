@@ -155,7 +155,7 @@ our Services for potential vulnerabilities and attacks.
 
 If you have a question about this Privacy Policy, please contact the developer:
 
-* By email: [tadreik@gmail.com](mailto:tadreik@gmail.com)
+* By email: [inquiries@foodiething.com](mailto:inquiries@foodiething.com)
 
 ### Privacy Policy Changes
 
