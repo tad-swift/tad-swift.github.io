@@ -92,7 +92,7 @@ blockquote:after {
 	border-color: #ffffff;
 }
 .search_wrapper404 input[type="submit"] {
-	background: #0feafa;
+	background: #ffd59a;
 }
 .search_wrapper404 input[type="submit"]:hover {
 	background: #303342;
@@ -105,8 +105,8 @@ a.liza_button {
 .liza_button:hover, 
 a.liza_button:hover,
 a.liza_button.liza_solid_button {
-	background: #0feafa;
-	border-color: #0feafa;
+	background: #ffd59a;
+	border-color: #ffd59a;
 	color: #ffffff;
 }
 a.liza_button.liza_solid_button:hover {
@@ -138,7 +138,7 @@ header.liza_header a {
 }
 .liza_mobile_header a:hover,
 header.liza_header a:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .liza_menu_opened a.liza_menu_toggler {
 	color: rgba(255,255,255, 0)!important;
@@ -147,24 +147,24 @@ a.liza_menu_toggler span.liza_menu_ico span {
 	background: #ffffff;
 }
 a.liza_menu_toggler:hover span.liza_menu_ico span {
-	background: #0feafa;
+	background: #ffd59a;
 }
 
 .liza_transparent_header a.liza_menu_toggler span.liza_menu_ico span {
 	background: #ffffff;
 }
 .liza_transparent_header a.liza_menu_toggler:hover span.liza_menu_ico span {
-	background: #0feafa;
+	background: #ffd59a;
 }
 
 .liza_transparent_header a.liza_menu_toggler:hover span.liza_menu_ico span {
-	background: #0feafa;
+	background: #ffd59a;
 }
 .liza_social_icons_list li a {
 	color: #ffffff;
 }
 .liza_social_icons_list li a:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 
 
@@ -192,7 +192,7 @@ a.liza_menu_toggler:hover span.liza_menu_ico span {
 	background: #ffffff;
 }
 .liza_aside_menu_wrapper a:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .liza_mobile_menu ul li > a:before,
 .liza_aside_menu_wrapper ul li > a:before {
@@ -216,7 +216,7 @@ a.liza_menu_toggler:hover span.liza_menu_ico span {
 .liza_aside_menu_wrapper ul.liza_menu li.current-menu-item > a,
 .liza_aside_menu_wrapper ul.liza_menu li.current-menu-ancestor > a,
 .liza_aside_menu_wrapper ul.liza_menu li:hover > a {
-	color: #0feafa;
+	color: #ffd59a;
 }
 
 
@@ -238,7 +238,7 @@ a.liza_menu_toggler:hover span.liza_menu_ico span {
 	background: #2b2d33;
 }
 .liza_main_nav ul.liza_menu li:hover > a {
-	color: #0feafa;
+	color: #ffd59a;
 }
 
 .menu_simple_showed ul.liza_menu > li.current-menu-parent > a:before,
@@ -255,7 +255,7 @@ a.liza_menu_toggler:hover span.liza_menu_ico span {
 .menu_simple ul.liza_menu > li.current-menu-item:hover > a:before,
 .menu_simple_showed ul.liza_menu > li.current-menu-ancestor:hover > a:before,
 .menu_simple ul.liza_menu > li.current-menu-ancestor:hover > a:before {
-	background: #0feafa;
+	background: #ffd59a;
 }
 
 
@@ -274,7 +274,7 @@ footer.liza_footer a {
 	color: #c3c5ce;
 }
 footer.liza_footer a:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .liza_footer_left_part,
 .liza_footer_right_part {
@@ -286,7 +286,7 @@ footer.liza_footer a:hover {
 }
 
 .liza_title_breadcrumb_wrapper a:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 select option {
 	background: #0b0c11;
@@ -294,24 +294,24 @@ select option {
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background: #0feafa;
+	background: #ffd59a;
 }
 
 .widget a {
 	color: #c3c5ce;
 }
 .widget a:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .tagcloud a:hover {
-	background: #0feafa;
-	border-color: #0feafa;
+	background: #ffd59a;
+	border-color: #ffd59a;
 }
 .widget .tagcloud a:hover {
 	color: #ffffff;
 }
 .liza_about_widget .liza_widget_socials a:hover {
-	background: #0feafa;
+	background: #ffd59a;
 }
 
 .liza_meta,
@@ -323,7 +323,7 @@ input[type="submit"]:hover {
 	background: #ffffff;
 }
 .liza_meta a:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .liza_element_blog .read_more_cont a,
 .liza_element_blog .read_more_cont a:hover {
@@ -337,8 +337,8 @@ body nav.pagination .nav-links a {
 	color: #ffffff;
 }
 body nav.pagination .nav-links span {
-	background: #0feafa;
-	border-color: #0feafa;
+	background: #ffd59a;
+	border-color: #ffd59a;
 }
 body nav.pagination .nav-links a {
 	border-color: #303342;
@@ -351,7 +351,7 @@ body nav.pagination .nav-links span.page-numbers.dots {
 }
 
 .liza_title a:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .liza_post_footer .liza_post_tags i,
 .liza_post_footer .liza_post_tags a,
@@ -370,14 +370,14 @@ body nav.pagination .nav-links span.page-numbers.dots {
 .liza_prev_post a:hover h6,
 .liza_next_post a:hover,
 .liza_prev_post a:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .liza_next_post a:hover:before,
 .liza_prev_post a:hover:before {
-	background: #0feafa;
+	background: #ffd59a;
 }
 .liza_post_title:hover h5 {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .liza_comment_info .liza_comment_author,
 .liza_comment_date {
@@ -387,13 +387,13 @@ body nav.pagination .nav-links span.page-numbers.dots {
 	color: #ffffff;
 }
 .liza_comment_reply_wrapper a:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .liza_comment_reply_wrapper a:before {
 	background: #ffffff;
 }
 .liza_comment_reply_wrapper a:hover:before {
-	background: #0feafa;
+	background: #ffd59a;
 }
 
 .liza_testimonials_slider .liza_testimonials_item div {
@@ -413,7 +413,7 @@ body nav.pagination .nav-links span.page-numbers.dots {
 	color: #ffffff;
 }
 .liza_cs_sharing a:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 
 .liza_element_wrap .countdown .item span,
@@ -425,7 +425,7 @@ body nav.pagination .nav-links span.page-numbers.dots {
 	border-color: #ffffff;
 }
 .liza_cs_form input[type="submit"] {
-	background: #0feafa;
+	background: #ffd59a;
 }
 .liza_cs_form input[type="submit"]:hover {
 	background: #303342;
@@ -439,24 +439,24 @@ a.project_listing_see_btn {
 	color: #ffffff;
 }
 .liza_stand_fi_project_listing  a.project_listing_see_btn {
-	background: #0feafa;
+	background: #ffd59a;
 }
 
 a.project_listing_see_btn:before {
 	background: #ffffff;
 }
 .liza_grid_post_title a:hover h3 {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .liza_project_post_content a.project_listing_see_btn:hover {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .liza_project_post_content a.project_listing_see_btn:hover:before {
-	background: #0feafa;
+	background: #ffd59a;
 }
 
 .liza_grid_post_title a:hover h5 {
-	color: #0feafa;
+	color: #ffd59a;
 } 
 
 /* Filter */
@@ -464,13 +464,13 @@ a.project_listing_see_btn:before {
 	color: #ffffff;
 }
 .liza_filter_inner li.selected a {
-	color: #0feafa;
+	color: #ffd59a;
 }
 .liza_filter_inner li a:before {
 	background: #ffffff;
 }
 .liza_filter_inner li.selected a:before {
-	background: #0feafa;
+	background: #ffd59a;
 }
 
 /* Liza Albums */
@@ -513,8 +513,8 @@ a.project_listing_see_btn:before {
 	background: #ffffff;
 }
 .liza_back_to_top:hover {
-	background: #0feafa;
-	border-color: #0feafa;
+	background: #ffd59a;
+	border-color: #ffd59a;
 }
 
 /* Mobile Header */
