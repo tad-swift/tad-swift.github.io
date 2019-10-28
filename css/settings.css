@@ -97,6 +97,12 @@ blockquote:after {
 .search_wrapper404 input[type="submit"]:hover {
 	background: #303342;
 }
+
+.darkbrownbutton {
+	border-color: #3e2723;
+	color: #3e2723;
+}
+
 .liza_button, 
 a.liza_button {
 	border-color: #ffffff;
