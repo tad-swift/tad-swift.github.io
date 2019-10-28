@@ -9,7 +9,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 .liza_albums_ajax_item,
 .liza_counter_content .liza_stat_count {
-	color: #ffffff;
+	color: #ffd59a;
 	font-family: "Quicksand";
 }
 
@@ -126,11 +126,11 @@ html body.page-template-page-coming-soon .liza_mobile_header,
 	background: none;
 }
 header.liza_header span {
-	color: #ffffff;
+	color: #ffd59a;
 }
 .liza_mobile_header a,
 header.liza_header a {
-	color: #ffffff;
+	color: #ffd59a;
 }
 .liza_transparent_header .liza_mobile_header_wrapper a,
 .liza_transparent_header header.liza_header a {
