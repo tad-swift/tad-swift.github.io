@@ -98,22 +98,38 @@ blockquote:after {
 	background: #303342;
 }
 
-.darkbrownbutton {
-	border-color: #3e2723;
-	color: #3e2723;
-}
 
-.liza_button, 
-a.liza_button {
+.liza_button_light, 
+a.liza_button_light {
 	border-color: #ffd59a;
 	color: #ffd59a;
 }
-.liza_button:hover, 
-a.liza_button:hover,
-a.liza_button.liza_solid_button {
+.liza_button_light:hover, 
+a.liza_button_light:hover,
+a.liza_button_light.liza_solid_button {
 	background: #ffd59a;
 	border-color: #ffd59a;
 	color: #ffd59a;
+}
+a.liza_button.liza_solid_button:hover {
+	border-color: #6a4f4b;
+	color: #6a4f4b;			
+	background: rgba(15,234,250, 0);
+}
+
+
+
+.liza_button_dark, 
+a.liza_button_dark {
+	border-color: #3e2723;
+	color: #3e2723;
+}
+.liza_button_dark:hover, 
+a.liza_button_dark:hover,
+a.liza_button_dark.liza_solid_button {
+	background: #ffd59a;
+	border-color: #ffd59a;
+	color: #3e2723;
 }
 a.liza_button.liza_solid_button:hover {
 	border-color: #6a4f4b;
