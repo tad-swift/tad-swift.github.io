@@ -1439,13 +1439,13 @@ body .liza_simple_slider_wrapper .liza_simple_slide.active {
 	font-size:13px;
 	line-height:20px;
 	padding:20px 20px 20px 20px;
-	background:#13151c;
+	background:#1b0000;
 	color:#ffffff;
 }
 
 /* Skills Module */
 .liza_skill_block_wrapper {
-	background:#6a4f4b;
+	background:#3e2723;
 	text-align:center;
 }
 .liza_skill_caption,
@@ -1454,11 +1454,11 @@ body .liza_simple_slider_wrapper .liza_simple_slide.active {
 	padding:0 30px;
 }
 .liza_skill_bar_background {
-	background:#1c1e25;
+	background:#4e342e;
 }
 .liza_skill_dot,
 .liza_skill_bar {
-	background:#303342;
+	background:#6a4f4b;
 }
 .liza_skill_value {
 	color:#ffffff;
