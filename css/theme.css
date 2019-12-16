@@ -2597,20 +2597,36 @@ body div.wpcf7-validation-errors {
     height: 100%;
 }
 
-.liza_button, 
-a.liza_button {
+.liza_button_light, 
+a.liza_button_light {
     display: inline-block;
     padding: 19px 60px 17px 60px;
     text-decoration: none;
     border-radius: 0;
-    color: #fff;
+    color: #ffd59a;
     text-transform: uppercase;
     font-size: 13px;
 	line-height:20px;
-	border:#ffffff 2px solid;
+	border:#ffd59a 2px solid;
 	letter-spacing:1px;
     transition: background 350ms, border 350ms;
 }
+
+.liza_button_dark, 
+a.liza_button_dark {
+    display: inline-block;
+    padding: 19px 60px 17px 60px;
+    text-decoration: none;
+    border-radius: 0;
+    color: #3e2723;
+    text-transform: uppercase;
+    font-size: 13px;
+	line-height:20px;
+	border:#3e2723 2px solid;
+	letter-spacing:1px;
+    transition: background 350ms, border 350ms;
+}
+
 .liza_button_wrapper.left {
 	text-align:left;
 }
