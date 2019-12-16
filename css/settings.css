@@ -111,7 +111,7 @@ a.liza_button_light.liza_solid_button {
 	border-color: #ffd59a;
 	color: #3e2723;
 }
-a.liza_button.liza_solid_button:hover {
+a.liza_button_light.liza_solid_button:hover {
 	border-color: #6a4f4b;
 	color: #6a4f4b;			
 	background: rgba(15,234,250, 0);
@@ -131,7 +131,7 @@ a.liza_button_dark.liza_solid_button {
 	border-color: #ffd59a;
 	color: #3e2723;
 }
-a.liza_button.liza_solid_button:hover {
+a.liza_button_dark.liza_solid_button:hover {
 	border-color: #6a4f4b;
 	color: #6a4f4b;			
 	background: rgba(15,234,250, 0);
