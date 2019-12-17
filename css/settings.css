@@ -98,7 +98,6 @@ blockquote:after {
 	background: #303342;
 }
 
-
 .liza_button_light, 
 a.liza_button_light {
 	border-color: #ffd59a;
@@ -123,6 +122,7 @@ a.liza_button_light.liza_solid_button_light:hover {
 .liza_button_dark, 
 a.liza_button_dark {
 	border-color: #3e2723;
+	border-radius: 8px;
 	color: #3e2723;
 }
 .liza_button_dark:hover, 
