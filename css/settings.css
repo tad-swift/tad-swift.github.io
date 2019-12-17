@@ -102,6 +102,7 @@ blockquote:after {
 .liza_button_light, 
 a.liza_button_light {
 	border-color: #ffd59a;
+	border-radius: 8px;
 	color: #ffd59a;
 }
 .liza_button_light:hover, 
