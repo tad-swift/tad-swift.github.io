@@ -134,7 +134,7 @@ a.liza_button_dark.liza_solid_button_dark {
 a.liza_button_dark.liza_solid_button_dark:hover {
 	border-color: #6a4f4b;
 	color: #6a4f4b;			
-	background: rgba(15,234,250, 0);
+	background: #1b0000;
 }
 
 
@@ -163,7 +163,7 @@ header.liza_header a:hover {
 	color: #ffd59a;
 }
 .liza_menu_opened a.liza_menu_toggler {
-	color: rgba(255,255,255, 0)!important;
+	color: #1b0000!important;
 }
 a.liza_menu_toggler span.liza_menu_ico span {
 	background: #ffffff;
@@ -249,11 +249,11 @@ a.liza_menu_toggler:hover span.liza_menu_ico span {
 }
 .menu_simple_showed ul.sub-menu > li,
 .menu_simple ul.sub-menu > li {
-	background: #13151c;
+	background: #1b0000;
 }
 .menu_simple_showed ul.sub-menu ul.sub-menu > li,
 .menu_simple ul.sub-menu ul.sub-menu > li {
-	background: #1c1e25;
+	background: #1b0000;
 }
 .menu_simple_showed ul.sub-menu li > a:before,
 .menu_simple ul.sub-menu > li > a:before {
