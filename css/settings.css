@@ -82,7 +82,7 @@ a:hover {
 	color: #c3c5ce;
 }
 blockquote:after {
-	border-color: #0b0c11 transparent transparent transparent;
+	border-color: #1b0000 transparent transparent transparent;
 }
 .liza_404_content_wrapper p, 
 .liza_cs_content_wrapper p {
@@ -134,12 +134,12 @@ a.liza_button_dark.liza_solid_button_dark {
 a.liza_button_dark.liza_solid_button_dark:hover {
 	border-color: #6a4f4b;
 	color: #6a4f4b;			
-	background: #1b0000;
+	background: rgba(15,234,250, 0);
 }
 
 
 header.liza_header .liza_header_bg {
-	background: #0c0c10;
+	background: #1b0000;
 }
 .liza_transparent_header .liza_mobile_header,
 .liza_transparent_header .liza_mobile_header_wrapper,
@@ -163,7 +163,7 @@ header.liza_header a:hover {
 	color: #ffd59a;
 }
 .liza_menu_opened a.liza_menu_toggler {
-	color: #1b0000!important;
+	color: rgba(255,255,255, 0)!important;
 }
 a.liza_menu_toggler span.liza_menu_ico span {
 	background: #ffffff;
