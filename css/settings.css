@@ -311,7 +311,7 @@ footer.liza_footer a:hover {
 	color: #ffd59a;
 }
 select option {
-	background: #0b0c11;
+	background: #1b0000;
 }
 input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -516,7 +516,7 @@ a.project_listing_see_btn:before {
 	background: #ffffff;
 }
 .liza_albums_ajax_template_wrapper {
-	background: #0b0c11;
+	background: #1b0000;
 }
 .liza_albums_ajax_numbers div {
 	color: #ffffff;
@@ -543,5 +543,5 @@ a.project_listing_see_btn:before {
 .liza_mobile_header,
 .liza_mobile_header_wrapper,
 .liza_mobile_menu_wrapper {
-	background: #0c0c10;
+	background: #1b0000;
 }
