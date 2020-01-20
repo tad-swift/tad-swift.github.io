@@ -223,16 +223,16 @@
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background: #869791; }
 
-/* liza Styles */
-.liza_owlCarousel.owl-carousel .owl-dot {
+/* tadreik Styles */
+.tadreik_owlCarousel.owl-carousel .owl-dot {
 	border-radius:100%;
 	transition:border 400ms;
 	margin:0 10px;
 }
-.liza_owlCarousel.owl-carousel .owl-dot {
+.tadreik_owlCarousel.owl-carousel .owl-dot {
 	border-radius:100%;
 }
-.liza_owlCarousel.owl-carousel .owl-dot span {
+.tadreik_owlCarousel.owl-carousel .owl-dot span {
 	border-radius:100%;	
 	background:rgba(255,255,255,0.5);
 	transition:background 400ms;
@@ -240,17 +240,17 @@
 	height:10px;
 	margin:0;
 }
-.liza_owlCarousel.owl-carousel .owl-dot.active span {
+.tadreik_owlCarousel.owl-carousel .owl-dot.active span {
 	background:rgba(255,255,255,1);
 }
-.liza_owlCarousel.owl-carousel .owl-dots {
+.tadreik_owlCarousel.owl-carousel .owl-dots {
 	margin:0 0 0 0!important;
 	position:relative;
 	z-index:5;
 	transform:translateY(-46px);
 }
-.liza_grid_post_inner .liza_owlCarousel.owl-carousel div.owl-dots,
-.liza_grid_post_inner .liza_owlCarousel.owl-carousel div.owl-dots span {
+.tadreik_grid_post_inner .tadreik_owlCarousel.owl-carousel div.owl-dots,
+.tadreik_grid_post_inner .tadreik_owlCarousel.owl-carousel div.owl-dots span {
 	line-height:0;
 	font-size:0;	
 }

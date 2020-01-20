@@ -4,18 +4,18 @@
  * Simple Slider
 */
 "use strict";
-var	liza_simple_slider_array = [],
-    $liza_ss_wrapper = jQuery('.liza_simple_slider_wrapper');
+var	tadreik_simple_slider_array = [],
+    $tadreik_ss_wrapper = jQuery('.tadreik_simple_slider_wrapper');
 
-$liza_ss_wrapper.each(function(){
+$tadreik_ss_wrapper.each(function(){
     var $this_obj = jQuery(this);
-    liza_simple_slider_array['liza_slider_' + $this_obj.attr('data-uniqid')] = {};
-    var this_array = liza_simple_slider_array["liza_slider_" + $this_obj.attr('data-uniqid')];        
+    tadreik_simple_slider_array['tadreik_slider_' + $this_obj.attr('data-uniqid')] = {};
+    var this_array = tadreik_simple_slider_array["tadreik_slider_" + $this_obj.attr('data-uniqid')];        
     this_array.id = $this_obj.attr('data-uniqid');
     this_array.dom = $this_obj;
-    this_array.slider = $this_obj.find('.liza_simple_slider');
+    this_array.slider = $this_obj.find('.tadreik_simple_slider');
     this_array.active_slide = 0;
-    this_array.max = $this_obj.find('.liza_simple_slide').length;
+    this_array.max = $this_obj.find('.tadreik_simple_slide').length;
     this_array.state = 'loading';
 
     // Options
@@ -31,42 +31,42 @@ $liza_ss_wrapper.each(function(){
 
 		if (this_obj.max == 1) {
 			// Only One Image
-			this_obj.dom.addClass('liza_only_one_image_slider liza_simple_slider_started');
-			this_obj.dom.find('.liza_simple_slide1').addClass('active simple_slide_loaded').removeClass('simple_slide_loader');
+			this_obj.dom.addClass('tadreik_only_one_image_slider tadreik_simple_slider_started');
+			this_obj.dom.find('.tadreik_simple_slide1').addClass('active simple_slide_loaded').removeClass('simple_slide_loader');
             this_array.active_slide = 1;
 		}
 
         // Bind Events
-        this_obj.dom.find('.liza_simple_slider_prev').on('click', function() {
+        this_obj.dom.find('.tadreik_simple_slider_prev').on('click', function() {
             var $this = jQuery(this),
-                $this_w = $this.parents('.liza_simple_slider_wrapper'),
-                $this_array = liza_simple_slider_array['liza_slider_' + $this_w.attr('data-uniqid')];
+                $this_w = $this.parents('.tadreik_simple_slider_wrapper'),
+                $this_array = tadreik_simple_slider_array['tadreik_slider_' + $this_w.attr('data-uniqid')];
             $this_array.move.call($this_array, -1);
         });
         
-        this_obj.dom.find('.liza_simple_slider_next').on('click', function() {
+        this_obj.dom.find('.tadreik_simple_slider_next').on('click', function() {
             var $this = jQuery(this),
-                $this_w = $this.parents('.liza_simple_slider_wrapper'),
-                $this_array = liza_simple_slider_array['liza_slider_' + $this_w.attr('data-uniqid')];
+                $this_w = $this.parents('.tadreik_simple_slider_wrapper'),
+                $this_array = tadreik_simple_slider_array['tadreik_slider_' + $this_w.attr('data-uniqid')];
             $this_array.move.call($this_array, 1);
         });
         
-        this_obj.dom.find('.liza_simple_slider_fullview').on('click', function() {
-			if (this_obj.dom.hasClass('liza_stand_alone_slider')) {
-				liza_html.toggleClass('liza_fullview_mode');
+        this_obj.dom.find('.tadreik_simple_slider_fullview').on('click', function() {
+			if (this_obj.dom.hasClass('tadreik_stand_alone_slider')) {
+				tadreik_html.toggleClass('tadreik_fullview_mode');
 			} else {
-				this_obj.dom.toggleClass('liza_fullview_mode');
+				this_obj.dom.toggleClass('tadreik_fullview_mode');
 			}
         });
         
         this_obj.dom.on('mouseenter',function(){
-            this_obj.dom.addClass('liza_slider_kbrd');
+            this_obj.dom.addClass('tadreik_slider_kbrd');
         });
         this_obj.dom.on('mouseleave',function(){
-            this_obj.dom.removeClass('liza_slider_kbrd');
+            this_obj.dom.removeClass('tadreik_slider_kbrd');
         });
         
-        this_obj.dom.addClass('liza_simple_slider_started').removeClass('presetup');
+        this_obj.dom.addClass('tadreik_simple_slider_started').removeClass('presetup');
         this_obj.dom.find('.simple_slide_loader').removeClass('simple_slide_loader').addClass('simple_slide_loaded');
 
         // Autoplay
@@ -97,7 +97,7 @@ $liza_ss_wrapper.each(function(){
 			this_obj.dom.height(parseInt(this_obj.height,10));
 			this_obj.slider.height(parseInt(this_obj.height,10));
 		}
-        if (this_obj.dom.hasClass('liza_stand_alone_slider')) {
+        if (this_obj.dom.hasClass('tadreik_stand_alone_slider')) {
             if (jQuery('#wpadminbar').length) {
                 this_obj.dom.css('top', jQuery('#wpadminbar').height()+'px');
             }
@@ -125,8 +125,8 @@ $liza_ss_wrapper.each(function(){
         $active_slide.addClass('active');
         
         // Set Content
-        if (this_obj.dom.find('.liza_simple_slider_content').length && this.content_type !== 'custom_content') {
-            var $content = this_obj.dom.find('.liza_simple_slider_title'),
+        if (this_obj.dom.find('.tadreik_simple_slider_content').length && this.content_type !== 'custom_content') {
+            var $content = this_obj.dom.find('.tadreik_simple_slider_title'),
                 content_text = $active_slide.attr('data-title');
             $content.fadeOut(300, function () {
                 $content.text(content_text);
@@ -144,28 +144,28 @@ $liza_ss_wrapper.each(function(){
 });
 
 jQuery(document).ready(function(){
-    if ($liza_ss_wrapper.length)
-        $liza_ss_wrapper.each(function(){
+    if ($tadreik_ss_wrapper.length)
+        $tadreik_ss_wrapper.each(function(){
             var $this = jQuery(this),
-                $this_array = liza_simple_slider_array['liza_slider_' + $this.attr('data-uniqid')];
+                $this_array = tadreik_simple_slider_array['tadreik_slider_' + $this.attr('data-uniqid')];
             $this_array.init.call($this_array);
         });
 });
 
 jQuery(window).resize(function () {
-    if ($liza_ss_wrapper.length) {
-        $liza_ss_wrapper.each(function(){
+    if ($tadreik_ss_wrapper.length) {
+        $tadreik_ss_wrapper.each(function(){
             var $this = jQuery(this),
-                $this_array = liza_simple_slider_array['liza_slider_' + $this.attr('data-uniqid')];
+                $this_array = tadreik_simple_slider_array['tadreik_slider_' + $this.attr('data-uniqid')];
             $this_array.layout.call($this_array);
         });
     }
 });
 
 jQuery(document.documentElement).keyup(function (event) {
-    if (jQuery('body').find('.liza_slider_kbrd').length) {
-        var $this = jQuery('body').find('.liza_slider_kbrd'),
-            $this_array = liza_simple_slider_array['liza_slider_' + $this.attr('data-uniqid')];
+    if (jQuery('body').find('.tadreik_slider_kbrd').length) {
+        var $this = jQuery('body').find('.tadreik_slider_kbrd'),
+            $this_array = tadreik_simple_slider_array['tadreik_slider_' + $this.attr('data-uniqid')];
         if ((event.keyCode == 37)) {
             $this_array.move.call($this_array, -1);
         }

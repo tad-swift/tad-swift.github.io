@@ -230,9 +230,9 @@ html.swipebox-html.swipebox-touch {
     background: rgba(0, 0, 0, 0.8);
 }
 
-/* liza SwipeBox Classes */
-.liza_swipe_box #swipebox-bottom-bar,
-.liza_swipe_box #swipebox-top-bar {
+/* tadreik SwipeBox Classes */
+.tadreik_swipe_box #swipebox-bottom-bar,
+.tadreik_swipe_box #swipebox-top-bar {
     background: none !important;
     width: 100%;
     position: fixed;
@@ -241,14 +241,14 @@ html.swipebox-html.swipebox-touch {
     text-align: center;
 }
 
-.liza_swipe_box #swipebox-top-bar {
+.tadreik_swipe_box #swipebox-top-bar {
     height: 83px;
     top: 0;
     bottom: auto;
     display: table;
 }
 
-.liza_swipe_box #swipebox-title {
+.tadreik_swipe_box #swipebox-title {
     display: table-cell;
     vertical-align: bottom;
     text-align: center;
@@ -262,7 +262,7 @@ html.swipebox-html.swipebox-touch {
     -webkit-box-sizing: border-box;
 }
 
-.liza_swipe_box #swipebox-bottom-bar {
+.tadreik_swipe_box #swipebox-bottom-bar {
     height: 117px;
     top: auto;
     bottom: 0;
@@ -274,7 +274,7 @@ html.swipebox-html.swipebox-touch {
     z-index: 999993 !important;
 }
 
-.liza_swipe_box #swipebox-top-bar {
+.tadreik_swipe_box #swipebox-top-bar {
     position: fixed;
     left: 0;
     top: auto;
@@ -282,7 +282,7 @@ html.swipebox-html.swipebox-touch {
     text-align: left;
 }
 
-.liza_swipe_box #swipebox-top-bar #swipebox-title {
+.tadreik_swipe_box #swipebox-top-bar #swipebox-title {
     text-align: left;
     padding-bottom: 27px;
     padding-left: 30px;
@@ -296,7 +296,7 @@ html.swipebox-html.swipebox-touch {
 #swipebox-next {
     width: 20px;
     height: 20px;
-    background: url(https://tadreik.com/img/liza_swipebox.png) no-repeat 0 0;
+    background: url(https://tadreik.com/img/tadreik_swipebox.png) no-repeat 0 0;
     background-size: 60px 20px;
     position: fixed;
     transition: opacity 400ms;

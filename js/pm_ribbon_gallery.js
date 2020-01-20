@@ -5,18 +5,18 @@
 */
 "use strict";
 
-var	liza_ribbon_array = [],
-    $liza_rs_wrapper = jQuery('.liza_ribbon_slider_wrapper');
+var	tadreik_ribbon_array = [],
+    $tadreik_rs_wrapper = jQuery('.tadreik_ribbon_slider_wrapper');
 
-$liza_rs_wrapper.each(function(){
+$tadreik_rs_wrapper.each(function(){
     var $this_obj = jQuery(this);
-    liza_ribbon_array['liza_ribbon_' + $this_obj.attr('data-uniqid')] = {};
-    var this_array = liza_ribbon_array["liza_ribbon_" + $this_obj.attr('data-uniqid')];        
+    tadreik_ribbon_array['tadreik_ribbon_' + $this_obj.attr('data-uniqid')] = {};
+    var this_array = tadreik_ribbon_array["tadreik_ribbon_" + $this_obj.attr('data-uniqid')];        
     this_array.id = $this_obj.attr('data-uniqid');
     this_array.dom = $this_obj;
-    this_array.slider = $this_obj.find('.liza_ribbon_slider');
+    this_array.slider = $this_obj.find('.tadreik_ribbon_slider');
     this_array.active_slide = 0;
-    this_array.max = $this_obj.find('.liza_ribbon_slide').length;
+    this_array.max = $this_obj.find('.tadreik_ribbon_slide').length;
     this_array.state = 'loading';
     this_array.slides = [];
 
@@ -38,12 +38,12 @@ $liza_rs_wrapper.each(function(){
 
         jQuery('body').append('\
             <style>\
-                .liza_ribbon_gal_'+ this.id +' .liza_ribbon_slide {\
+                .tadreik_ribbon_gal_'+ this.id +' .tadreik_ribbon_slide {\
                     transition: transform '+ this.transition +'ms, opacity 600ms;\
                 }\
             </style>');
         
-        this_obj.dom.find('.liza_ribbon_slide').each(function(){
+        this_obj.dom.find('.tadreik_ribbon_slide').each(function(){
             this_obj.slides[jQuery(this).attr('data-count')] = {};
             var this_slide = this_obj.slides[jQuery(this).attr('data-count')],
                 $this = jQuery(this);
@@ -57,25 +57,25 @@ $liza_rs_wrapper.each(function(){
         });
         
         // Bind Events
-        this_obj.dom.find('.liza_ribbon_prevSlide').on('click', function() {
+        this_obj.dom.find('.tadreik_ribbon_prevSlide').on('click', function() {
             var $this = jQuery(this),
-                $this_w = $this.parent('.liza_ribbon_slider_wrapper'),
-                $this_array = liza_ribbon_array['liza_ribbon_' + $this_w.attr('data-uniqid')];
+                $this_w = $this.parent('.tadreik_ribbon_slider_wrapper'),
+                $this_array = tadreik_ribbon_array['tadreik_ribbon_' + $this_w.attr('data-uniqid')];
             $this_array.move.call($this_array, -1);
         });
         
-        this_obj.dom.find('.liza_ribbon_nextSlide').on('click', function() {
+        this_obj.dom.find('.tadreik_ribbon_nextSlide').on('click', function() {
             var $this = jQuery(this),
-                $this_w = $this.parent('.liza_ribbon_slider_wrapper'),
-                $this_array = liza_ribbon_array['liza_ribbon_' + $this_w.attr('data-uniqid')];
+                $this_w = $this.parent('.tadreik_ribbon_slider_wrapper'),
+                $this_array = tadreik_ribbon_array['tadreik_ribbon_' + $this_w.attr('data-uniqid')];
             $this_array.move.call($this_array, 1);
         });
         
         this_obj.dom.on('mouseenter',function(){
-            this_obj.dom.addClass('liza_ribbon_kbrd');
+            this_obj.dom.addClass('tadreik_ribbon_kbrd');
         });
         this_obj.dom.on('mouseleave',function(){
-            this_obj.dom.removeClass('liza_ribbon_kbrd');
+            this_obj.dom.removeClass('tadreik_ribbon_kbrd');
         });
 
         // Init First Run
@@ -125,19 +125,19 @@ $liza_rs_wrapper.each(function(){
 				this_obj.dom.css('height', '100vh');
 			}
 			this_obj.slider.css('height', '100vh');
-			this_obj.dom.find('.liza_ribbon_slide').css('height', '100vh');
-			this_obj.dom.find('.liza_ribbon_slide').each(function(){
+			this_obj.dom.find('.tadreik_ribbon_slide').css('height', '100vh');
+			this_obj.dom.find('.tadreik_ribbon_slide').each(function(){
 				jQuery(this).width(jQuery(this).height()*jQuery(this).attr('data-ratio'));
 			});
 		} else {
 			this_obj.dom.height(parseInt(this_obj.height,10));
 			this_obj.slider.height(parseInt(this_obj.height,10));
-			this_obj.dom.find('.liza_ribbon_slide').height(parseInt(this_obj.height,10));
-			this_obj.dom.find('.liza_ribbon_slide').each(function(){
+			this_obj.dom.find('.tadreik_ribbon_slide').height(parseInt(this_obj.height,10));
+			this_obj.dom.find('.tadreik_ribbon_slide').each(function(){
 				jQuery(this).width(jQuery(this).height()*jQuery(this).attr('data-ratio'));
 			});
 		}
-        if (this_obj.dom.hasClass('liza_stand_alone_slider')) {
+        if (this_obj.dom.hasClass('tadreik_stand_alone_slider')) {
             if (jQuery('#wpadminbar').length) {
                 this_obj.dom.css('top', jQuery('#wpadminbar').height()+'px');
             }
@@ -151,11 +151,11 @@ $liza_rs_wrapper.each(function(){
         var this_obj = this,
             margin = parseInt(this_obj.margin,10);
         
-        var s1 = jQuery(this.slider.find('.liza_ribbon_slide')[0]),
-            s2 = jQuery(this.slider.find('.liza_ribbon_slide')[1]),
-            s3 = jQuery(this.slider.find('.liza_ribbon_slide')[2]),
-            s4 = jQuery(this.slider.find('.liza_ribbon_slide')[3]),
-            s5 = jQuery(this.slider.find('.liza_ribbon_slide')[4]);
+        var s1 = jQuery(this.slider.find('.tadreik_ribbon_slide')[0]),
+            s2 = jQuery(this.slider.find('.tadreik_ribbon_slide')[1]),
+            s3 = jQuery(this.slider.find('.tadreik_ribbon_slide')[2]),
+            s4 = jQuery(this.slider.find('.tadreik_ribbon_slide')[3]),
+            s5 = jQuery(this.slider.find('.tadreik_ribbon_slide')[4]);
 
         var s1_transform = -1 * (s3.width()/2 + s2.width() + s1.width()) - margin*2,
             s2_transform = -1 * (s3.width()/2 + s2.width()) - margin,
@@ -170,8 +170,8 @@ $liza_rs_wrapper.each(function(){
         s5.css('transform', 'translateX(' + s5_transform + 'px)');
         
         // Set Content
-        if (this_obj.dom.find('.liza_ribbon_title_content').length) {
-            var $content = this_obj.dom.find('.liza_ribbon_title'),
+        if (this_obj.dom.find('.tadreik_ribbon_title_content').length) {
+            var $content = this_obj.dom.find('.tadreik_ribbon_title'),
                 content_text = s3.attr('data-title');
             $content.fadeOut(300, function () {
                 $content.text(content_text);
@@ -183,7 +183,7 @@ $liza_rs_wrapper.each(function(){
     // Get Slide
     this_array.get = function(slide_id, option) {
         if (option == 'new') {
-            var this_new_class = 'liza_new_slide';
+            var this_new_class = 'tadreik_new_slide';
         } else {
             var this_new_class = '';
         }
@@ -192,10 +192,10 @@ $liza_rs_wrapper.each(function(){
             this_descr = this.slides[slide_id].descr,
             this_ratio = this.slides[slide_id].ratio,
             return_html = '\
-                <div class="liza_ribbon_slide '+ this_new_class +'" data-count="'+ slide_id +'" data-title="'+ this_title +'" data-descr="'+ this_descr +'" data-ratio="'+ this_ratio +'">\
+                <div class="tadreik_ribbon_slide '+ this_new_class +'" data-count="'+ slide_id +'" data-title="'+ this_title +'" data-descr="'+ this_descr +'" data-ratio="'+ this_ratio +'">\
                     <img alt="'+ this_title +'" src="'+ this_src +'" />\
-				    <div class="liza_ribbon_overlay"></div>\
-                    <div class="liza_ribbon_overlay_active"></div>\
+				    <div class="tadreik_ribbon_overlay"></div>\
+                    <div class="tadreik_ribbon_overlay_active"></div>\
                 </div>\
             ';
         return return_html;
@@ -215,20 +215,20 @@ $liza_rs_wrapper.each(function(){
     this_array.move = function(dir) {
         var this_obj = this;
         
-        this_obj.slider.find('.liza_ribbon_slide.active').removeClass('active');
-        this_obj.slider.find('.liza_new_slide').removeClass('liza_new_slide');
+        this_obj.slider.find('.tadreik_ribbon_slide.active').removeClass('active');
+        this_obj.slider.find('.tadreik_new_slide').removeClass('tadreik_new_slide');
         
         if (this_obj.autoplay == 'on') {
             clearInterval(this_obj.set_interval);
         }
 
         if (dir > 0) {
-            this_obj.slider.find('.liza_ribbon_slide:eq(0)').remove();
-            var last_slide = parseInt(this_obj.slider.find('.liza_ribbon_slide:last').attr('data-count'),10),
+            this_obj.slider.find('.tadreik_ribbon_slide:eq(0)').remove();
+            var last_slide = parseInt(this_obj.slider.find('.tadreik_ribbon_slide:last').attr('data-count'),10),
                 add_slide = last_slide + 1;
         } else if (dir < 0) {
-            this_obj.slider.find('.liza_ribbon_slide:eq(4)').remove();
-            var last_slide = parseInt(this_obj.slider.find('.liza_ribbon_slide:first').attr('data-count'),10),
+            this_obj.slider.find('.tadreik_ribbon_slide:eq(4)').remove();
+            var last_slide = parseInt(this_obj.slider.find('.tadreik_ribbon_slide:first').attr('data-count'),10),
                 add_slide = last_slide - 1;
         }
         
@@ -241,7 +241,7 @@ $liza_rs_wrapper.each(function(){
             this_obj.slider.prepend(add_slide_html);
         }
         
-        jQuery(this_obj.slider.find('.liza_ribbon_slide:eq(2)')).addClass('active');
+        jQuery(this_obj.slider.find('.tadreik_ribbon_slide:eq(2)')).addClass('active');
         this_obj.set.call(this_obj);
         
         if (this_obj.autoplay == 'on') {
@@ -254,29 +254,29 @@ $liza_rs_wrapper.each(function(){
 });
 
 jQuery(document).ready(function(){
-    if ($liza_rs_wrapper.length) {
-        $liza_rs_wrapper.each(function(){
+    if ($tadreik_rs_wrapper.length) {
+        $tadreik_rs_wrapper.each(function(){
             var $this = jQuery(this),
-                $this_array = liza_ribbon_array['liza_ribbon_' + $this.attr('data-uniqid')];
+                $this_array = tadreik_ribbon_array['tadreik_ribbon_' + $this.attr('data-uniqid')];
             $this_array.init.call($this_array);
         });
     }
 });
 
 jQuery(window).resize(function () {
-    if ($liza_rs_wrapper.length) {
-        $liza_rs_wrapper.each(function(){
+    if ($tadreik_rs_wrapper.length) {
+        $tadreik_rs_wrapper.each(function(){
             var $this = jQuery(this),
-                $this_array = liza_ribbon_array['liza_ribbon_' + $this.attr('data-uniqid')];
+                $this_array = tadreik_ribbon_array['tadreik_ribbon_' + $this.attr('data-uniqid')];
             $this_array.layout.call($this_array);
         });
     }
 });
 
 jQuery(document.documentElement).keyup(function (event) {
-    if (jQuery('body').find('.liza_ribbon_kbrd').length) {
-        var $this = jQuery('body').find('.liza_ribbon_kbrd'),
-            $this_array = liza_ribbon_array['liza_ribbon_' + $this.attr('data-uniqid')];
+    if (jQuery('body').find('.tadreik_ribbon_kbrd').length) {
+        var $this = jQuery('body').find('.tadreik_ribbon_kbrd'),
+            $this_array = tadreik_ribbon_array['tadreik_ribbon_' + $this.attr('data-uniqid')];
         if ((event.keyCode == 37)) {
             $this_array.move.call($this_array, -1);
         }

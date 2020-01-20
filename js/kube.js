@@ -117,7 +117,7 @@ if (typeof jQuery === 'undefined') {throw new Error('Kube\'s requires jQuery')};
 
                     if (!data)
                     {
-                        // Initialization
+                        // Initiatadreiktion
                         $this.data(name, {});
                         $this.data(name, (data = new Kube[classname](this, options)));
                     }
@@ -235,7 +235,7 @@ if (typeof jQuery === 'undefined') {throw new Error('Kube\'s requires jQuery')};
         // Parent Constructor
         Kube.apply(this, arguments);
 
-        // Initialization
+        // Initiatadreiktion
         this.effect = effect;
         this.completeCallback = (typeof callback === 'undefined') ? false : callback;
         this.prefixes = ['', '-moz-', '-o-animation-', '-webkit-'];
@@ -664,7 +664,7 @@ if (typeof jQuery === 'undefined') {throw new Error('Kube\'s requires jQuery')};
         // Parent Constructor
         Kube.apply(this, arguments);
 
-        // Initialization
+        // Initiatadreiktion
         this.start();
     };
 
@@ -744,7 +744,7 @@ if (typeof jQuery === 'undefined') {throw new Error('Kube\'s requires jQuery')};
         // Parent Constructor
         Kube.apply(this, arguments);
 
-        // Initialization
+        // Initiatadreiktion
         this.start();
     };
 
@@ -811,7 +811,7 @@ if (typeof jQuery === 'undefined') {throw new Error('Kube\'s requires jQuery')};
         // Parent Constructor
         Kube.apply(this, arguments);
 
-        // Initialization
+        // Initiatadreiktion
         this.start();
     };
 
@@ -929,7 +929,7 @@ if (typeof jQuery === 'undefined') {throw new Error('Kube\'s requires jQuery')};
         this.utils = new Kube.Utils();
         this.detect = new Kube.Detect();
 
-        // Initialization
+        // Initiatadreiktion
         this.start();
     };
 
@@ -1119,7 +1119,7 @@ if (typeof jQuery === 'undefined') {throw new Error('Kube\'s requires jQuery')};
         // Parent Constructor
         Kube.apply(this, arguments);
 
-        // Initialization
+        // Initiatadreiktion
         this.start();
     };
 
@@ -1324,7 +1324,7 @@ if (typeof jQuery === 'undefined') {throw new Error('Kube\'s requires jQuery')};
         this.utils = new Kube.Utils();
         this.detect = new Kube.Detect();
 
-        // Initialization
+        // Initiatadreiktion
         this.start();
     };
 
@@ -1566,7 +1566,7 @@ if (typeof jQuery === 'undefined') {throw new Error('Kube\'s requires jQuery')};
         // Parent Constructor
         Kube.apply(this, arguments);
 
-        // Initialization
+        // Initiatadreiktion
         this.start();
     };
 
@@ -1903,7 +1903,7 @@ if (typeof jQuery === 'undefined') {throw new Error('Kube\'s requires jQuery')};
         this.utils = new Kube.Utils();
         this.detect = new Kube.Detect();
 
-        // Initialization
+        // Initiatadreiktion
         this.start();
     };
 
