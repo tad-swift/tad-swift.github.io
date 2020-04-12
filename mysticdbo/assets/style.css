@@ -1,0 +1,40 @@
+div.note {
+    background-color: #fff9c4;
+    border: 0px solid;
+    border-radius: 2px;
+    padding: 1%;
+    display: inline-block;
+    margin-top: 1%;
+    max-width: 90%;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.demo-card-wide.mdl-card {
+    width: 100%;
+  }
+  #tad1.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 360px;
+    background: url('http://i66.tinypic.com/2gvufk5.png') center / cover;
+  }
+  #tad2.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 360px;
+    background: url('http://i65.tinypic.com/2lww5ew.png') center / cover;
+  }
+  #tad3.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 360px;
+    background: url('http://i66.tinypic.com/vouame.png') center / cover;
+  }
