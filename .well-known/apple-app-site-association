@@ -2,7 +2,7 @@
   "applinks": {
       "details": [
            {
-             "appIDs": [ "1505237167.com.tadreik.Datapix" ],
+             "appIDs": [ "HJXYY5247H.com.tadreik.Datapix" ],
              "components": [
                {
                   "#": "no_universal_links",
@@ -20,9 +20,9 @@
        ]
    },
    "webcredentials": {
-      "apps": [ "1505237167.com.tadreik.Datapix" ]
+      "apps": [ "HJXYY5247H.com.tadreik.Datapix" ]
    },
     "appclips": {
-        "apps": ["1505237167.com.tadreik.Datapix.Clip"]
+        "apps": ["HJXYY5247H.com.tadreik.Datapix.Clip"]
     }
 }
